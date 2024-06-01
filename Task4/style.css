@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    color: #333;
+}
+
+#abc {
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    
+    
+}
+#abc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+#abc ul li:hover{
+
+transform: scale(1.5);
+
+}
+
+
+#abc ul li {
+    margin: 0 15px;
+}
+
+#abc ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.container {
+    background: #fff;
+    padding: 50px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    border-radius: 8px;
+
+    
+    text-align: center;
+    height: auto;
+    
+
+}
+.profile-pic:hover {
+
+transform: scale(1.2);
+
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.headline {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.summary {
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+/* #about {
+    background: #fff;
+    padding: 50px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* text-align: left; */
+ */
+
+.container ul li{
+
+list-style-type:none;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    /* bottom: 0; */
+    width: 100%;
+}
